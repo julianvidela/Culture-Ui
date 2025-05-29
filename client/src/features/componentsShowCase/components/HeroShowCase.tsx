@@ -35,7 +35,7 @@ export const HeroShowCase = () => {
       </div>
       <div className="w-full flex gap-4 sm:gap-6 justify-center">
         <FancyButton>
-          <Link href="/docs">Get Started</Link>
+          <Link href="/docs" className="flex items-center px-10 py-3">Get Started</Link>
         </FancyButton>
       </div>
       {tooltips.map((tooltip, index) => {
